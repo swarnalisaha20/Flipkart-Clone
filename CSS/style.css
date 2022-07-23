@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--main-bg-color);
+    columns: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 9px -66px 9px 172px;
+}
+
+#logoimg {
+    width: 88px;
+    padding: 0px 25px;
+}
+
+.explore {
+    font-style: italic;
+    font-size: 12px;
+}
+.explore a{
+    text-decoration:none;
+}
+.explore a:hover{
+    text-decoration:underline;
+}
+
+#explorelogo {
+    color: #f0f0f0;
+}
+
+#plus {
+    color: #ffe500;
+    font-weight: 500;
+}
+
+#star{
+    width: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-field {
+    width: 35vw;
+    height: 35px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+    border: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -53px;
+    position: relative;
+    top: 3px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.container {}
+
+footer {
+    height: 12vh;
+    background: var(--main-bg-color);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
