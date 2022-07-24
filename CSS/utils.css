@@ -1,8 +1,26 @@
-.flex-all-center{
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+    --main-font-color: white;
+}
+
+.flex-all-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text-color-white{
+
+.text-color-white {
     color: white;
+}
+
+.dropbox {
+    background: var(--main-bg-color);
+    color: var(--main-font-color);
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    width: 114px;
+    font-size: 16px;
+    font-weight: 900;
 }
