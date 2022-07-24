@@ -61,7 +61,7 @@ nav {
     align-items: center;
 }
 
-.form {
+.search_form{
     display: flex;
     flex-direction: row;
 }
