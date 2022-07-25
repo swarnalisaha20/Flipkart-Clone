@@ -103,6 +103,19 @@ nav {
     width: 62px;
     margin-left: 27px;
 }
+.fa-solid{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.cart{
+    color: var(--main-font-color);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 39px;
+}
+.fa-cart-shopping{
+    margin-right: 7px;
+}
 .container {}
 
 footer {
