@@ -10,6 +10,9 @@
     justify-content: center;
     align-items: center;
 }
+.create-flex {
+    display: flex;
+}
 
 .text-color-white {
     color: white;
@@ -25,4 +28,7 @@
 }
 .pointer{
     cursor: pointer;
+}
+.text-center{
+    text-align: center;
 }
