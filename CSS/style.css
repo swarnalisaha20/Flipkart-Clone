@@ -37,11 +37,13 @@ nav {
     font-style: italic;
     font-size: 12px;
 }
-.explore a{
-    text-decoration:none;
+
+.explore a {
+    text-decoration: none;
 }
-.explore a:hover{
-    text-decoration:underline;
+
+.explore a:hover {
+    text-decoration: underline;
 }
 
 #explorelogo {
@@ -53,7 +55,7 @@ nav {
     font-weight: 500;
 }
 
-#star{
+#star {
     width: 10px;
 }
 
@@ -62,7 +64,7 @@ nav {
     align-items: center;
 }
 
-.search_form{
+.search_form {
     display: flex;
     flex-direction: row;
 }
@@ -90,59 +92,75 @@ nav {
     height: 20px;
 }
 
-.myacc{
+.myacc {
     width: 114px;
     margin-left: 94px;
 }
-.becomeAseller{
+
+.becomeAseller {
     color: var(--main-font-color);
     font-size: 16px;
     font-weight: 700;
     margin-left: 28px;
 }
-.more{
+
+.more {
     width: 62px;
     margin-left: 27px;
 }
-.fa-solid{
+
+.fa-solid {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
 }
-.cart{
+
+.cart {
     color: var(--main-font-color);
     font-size: 16px;
     font-weight: 700;
     margin-left: 39px;
 }
-.fa-cart-shopping{
+
+.fa-cart-shopping {
     margin-right: 7px;
 }
 
-.container{
+.container {
     min-height: calc(100vh - 63.2167px - 115.2px - 12vh);
     background: #f0f0f0;
 }
-.index_box a{
-    text-decoration:none;
+
+.index_box a {
+    text-decoration: none;
     color: black;
 }
 
-.index_item{
+.index_item {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 12px 42px;
 }
-.index_item a:hover{
-    color: var(--main-bg-color) ;
+
+.index_item a:hover {
+    color: var(--main-bg-color);
 }
-.index_item img{
+
+.index_item img {
     height: 64px;
 }
-.index_name{
+
+.index_name {
     font-weight: 500;
 }
+
+.slider img {
+    width: 100vw;
+    height: 16vw;
+    margin: 8px;
+}
+
 footer {
     height: 12vh;
     background: var(--main-bg-color);
