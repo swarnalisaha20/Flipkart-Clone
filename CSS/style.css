@@ -119,7 +119,8 @@ nav {
 }
 
 .container{
-    min-height: calc(100vh - 63.2167px - 12vh);
+    min-height: calc(100vh - 63.2167px - 115.2px - 12vh);
+    background: #f0f0f0;
 }
 .index_box a{
     text-decoration:none;
