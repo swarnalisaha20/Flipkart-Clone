@@ -3,7 +3,7 @@
 
 Frontend clone of Flipkart UI (Personal Project)
 
-# Techlogies used
+## Techlogies used
 
 - HTML
 - CSS
